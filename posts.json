@@ -1,0 +1,44 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "comments": [
+          {
+            "user": "luis",
+            "comment": "This is a comment",
+            "replies": [
+              {
+                "user": "luis",
+                "comment": "This is a reply to the comment"
+              },
+              {
+                "user": "luis",
+                "comment": "This is a reply to the comment"
+              }
+            ]
+          },
+          {
+            "user": "luis",
+            "comment": "This is another comment",
+            "replies": [
+              {
+                "user": "luis",
+                "comment": "This is a reply to the comment"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "comments": [
+          {
+            "user": "luis",
+            "comment": "This is a comment on the second post",
+            "replies": []
+          }
+        ]
+      }
+    ]
+  }
+  
